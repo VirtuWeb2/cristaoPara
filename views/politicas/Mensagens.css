@@ -1,0 +1,54 @@
+.mensagens-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.mensagens-container h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.mensagens-list {
+  list-style: none;
+  padding: 0;
+}
+
+.mensagem-item {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 15px;
+  transition: box-shadow 0.3s;
+}
+
+.mensagem-item:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.mensagem-item p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.mensagem-item strong {
+  color: #333;
+}
+
+.mensagem-data {
+  font-size: 12px;
+  color: #999;
+  margin-top: 10px;
+}
+
+.mensagens-loading {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+}

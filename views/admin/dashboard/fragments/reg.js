@@ -1,0 +1,130 @@
+
+export const regionesMunicipios = {
+  todos: ["pará"],
+    
+  regiões: [
+    "baixo amazonas",
+    "baixo tocantins",
+    "araguaia",
+    "caeté",
+    "capim",
+    "carajás",
+    "guajarina",
+    "lago tucuruí",
+    "marajó",
+    "metropolitano",
+    "salgado",
+    "tapajós",
+    "xingu",
+  ],
+  "baixo amazonas": ["santarém", "juruti","oriximiná","prainha","almeirim","belterra","faro","mojui dos campos","monte alegre",],
+  "baixo tocantins": ["barcarena", "abaetetuba","acará","oeiras",],
+  araguaia: ["são félix do xingu","conceição do araguaia","ourilandia do norte"],
+  caeté: ["bragança", "augusto correa", "tracuateua","capanema", "nova timboteua","quatipuru"],
+  capim: ["paragominas", "dom eliseu","garrafão do norte","goianésia",],
+  carajás: ["parauapebas", "itupiranga","maraba"],
+  guajarina: ["castanhal","magalhães barata","curuça","maracana",""],
+  "lago tucuruí": ["tucuruí","" ],
+  marajó: [
+    "portel",
+    "soure",
+    "bagre",
+    "muaná",
+    "gurupá",
+    "oeiras",
+    "boavistense",
+    "ponta de pedras",
+  ],
+  metropolitano: ["belem", "ananindeua", "marituba", "benevides"],
+  salgado: ["salinas", "curuçá","colares"],
+  tapajós: ["itaituba"],
+  xingu: ["altamira","vitoria do xingu","porto de moz",""],
+};
+
+export const municipioLinks = {
+  'abaetetuba': "https://www.enoticiaabaetetuba.com.br",
+  "acará":"https://www.enoticiaacara.com.br/",
+  araguaia: "https://www.enoticiaaraguaia.com.br/",
+  bagre: "https://www.enoticiabagre.com.br",
+  "baixo amazonas": "https://www.enoticiabaixoamazonas.com.br/",
+  "baixo tocantins": "https://www.enoticiabaixotocantins.com.br/",
+  "belterra":"https://www.enoticiabelterra.com.br/",
+  belem: "https://www.enoticiabelem.com.br",
+  boavistense: "https://www.enoticiaboavistense.com.br",
+  caeté: "https://www.enoticiacaete.com.br",
+  "capanema":"https://www.enoticiacapanema.com.br/",
+  capim: "https://www.enoticiacapim.com.br/",
+  "castanhal":"https://www.enoticiacastanhal.com.br/",
+  carajás: "https://www.enoticiacarajas.com.br/",
+  "colares":"https://www.enoticiacolares.com.br/",
+  "conceição do araguaia":"https://www.enoticiaconceicaoaraguaia.com.br/",
+  "curuça":"https://www.enoticiacuruca.com.br/",
+  "dom eliseu": "https://www.enoticiadomeliseu.com.br",
+  guajarina: "https://www.enoticiaguajarina.com.br/",
+  "lago tucuruí": "https://www.enoticiapara.com.br/regiao/lago-tucurui",
+  marajó: "https://www.enoticiamarajo.com.br/",
+  metropolitano: "https://www.enoticiapara.com.br/regiao/metropolitana",
+  salgado: "https://www.enoticiasalgado.com.br/",
+  tapajós: "https://www.enoticiatapajos.com.br/",
+  xingu: "https://www.enoticiaxingu.com.br/",
+  pará: "https://www.enoticiapara.com.br",
+  santarém: "https://www.enoticiasantarem.com.br",
+  juruti: "https://www.enoticiajuruti.com.br",
+  barcarena: "https://www.enoticiabarcarena.com.br",
+  abaetetuba: "https://www.enoticiaabaetetuba.com.br",
+  bragança: "https://www.enoticiabraganca.com.br",
+  paragominas: "https://www.enoticiaparagominas.com.br",
+  parauapebas: "https://www.enoticiaparauapebas.com.br",
+  tucuruí: "https://www.enoticiatucurui.com.br",
+  portel: "https://www.enoticiaportel.com.br",
+  soure: "https://www.enoticiasoure.com.br",
+  muaná: "https://www.enoticiamuana.com.br",
+  marituba: "https://www.enoticiamarituba.com.br",
+  benevides: "https://www.enoticiabenevides.com.br",
+  curuçá: "https://www.enoticiacuruca.com.br",
+  itaituba: "https://www.enoticiaitaituba.com.br",
+  altamira: "https://www.enoticiaaltamira.com.br",
+  ananindeua: "https://www.enoticiaananindeua.com.br",
+  "vitoria do xingu": "https://www.enoticiavitoriadoxingu.com.br",
+  oeiras: "https://www.enoticiaoeiras.com.br",
+  gurupá: "https://www.enoticiagurupa.com.br",
+  tracuateua: "https://www.enoticiatracuateua.com.br",
+  goianésia: "https://www.enoticiagoianesia.com.br",
+  "augusto correa": "https://www.enoticiaaugustocorrea.com.br",
+  salinas: "https://www.enoticiasalinas.com.br",
+  itupiranga: "https://www.enoticiaitupiranga.com.br",
+  faro:"https://www.enoticiafaro.com.br/",
+  "garrafão do norte":"https://www.enoticiagarrafaodonorte.com.br/",
+  "magalhães barata":"https://www.enoticiamagalhaesbarata.com.br/",
+  "maraba":"https://www.enoticiamaraba.com.br/",
+  maracana:"https://www.enoticiamaracana.com.br/",
+  "mojui dos campos":"https://www.enoticiamojuidoscampos.com.br/",
+  "monte alegre":"https://www.enoticiamontealegre.com.br/",
+  "nova timboteua":"https://www.enoticianovatimboteua.com.br/",
+  "oeiras":"https://www.enoticiaoeiras.com.br/",
+  "oriximá":"https://www.enoticiaoriximina.com.br/",
+  "ourilandia do norte":"https://www.enoticiaourilandiadonorte.com.br/",
+  "ponta de pedras":"https://www.enoticiapontadepedras.com.br/",
+  "porto de moz":"https://www.enoticiaportodemoz.com.br/",
+  "prainha":"https://www.enoticiaprainha.com.br/",
+  "santarem":"https://www.enoticiasantarem.com.br/",
+  "soure":"https://www.enoticiasoure.com.br/",
+  "tracuateua":"https://www.enoticiatracuateua.com.br/",
+  "quatipuru":"https://www.enoticiaquatipuru.com.br/",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+};
+

@@ -1,0 +1,140 @@
+/* .form-anuncio {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.form-anuncio h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-anuncio label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-anuncio input,
+.form-anuncio textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.form-anuncio input:focus,
+.form-anuncio textarea:focus {
+  border-color: #28a745;
+  outline: none;
+}
+
+.form-anuncio button {
+  width: 100%;
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-anuncio button:hover {
+  background-color: #218838;
+}
+
+.form-anuncio button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+} */
+
+.form-anuncie {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.form-anuncie h2 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.form-anuncie .descricao {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.form-anuncie label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.form-anuncie input,
+.form-anuncie textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-anuncie input:focus,
+.form-anuncie textarea:focus {
+  border-color: #007BFF;
+  outline: none;
+  box-shadow: 0 0 4px rgba(0,123,255,0.2);
+}
+
+.form-anuncie textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.form-anuncie button {
+  width: 100%;
+  padding: 0.8rem;
+  background: #007BFF;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form-anuncie button:hover {
+  background: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .form-anuncie {
+    margin: 1.5rem;
+    padding: 1.5rem;
+  }
+}
