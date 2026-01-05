@@ -1,0 +1,48 @@
+
+.carousel {
+    display: flex;
+    overflow:hidden ;
+  width: 100%;
+  position:relative;
+  /* padding-bottom: 4rem; */
+  left: 0rem;
+  height: 3rem;
+  /* padding-bottom: 2rem; */
+  bottom: -5rem;
+  background-color: #deb940;
+  
+  /* padding-bottom: 3rem; */
+  /* padding-bottom: 1rem; */
+  
+  /* bottom: -5rem; */
+
+  
+}
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  display: inline-flex;
+  animation: scroll 40s linear infinite; /* ajuste a velocidade */
+  min-width: max-content;
+  gap: 8px;
+  bottom: -0.2rem;
+}
+.animate-scroll a{
+    color:#426044;
+    font-weight: 600;
+    white-space: nowrap;
+    position: relative;
+    font-size: 1rem;
+    bottom: -0.5rem;
+    
+}
+.animate-scroll a:hover{
+    text-decoration: underline;
+}
